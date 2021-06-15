@@ -1,7 +1,11 @@
+.DS_Store
 .idea/
 *.iml
-.DS_Store
 .vscode/
 
+.dockerignore
+.git
 .gitignore
+Dockerfile
+Makefile
 README.md

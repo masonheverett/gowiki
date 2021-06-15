@@ -15,7 +15,7 @@ build:
 run:
 	docker run --rm \
 		--publish 40000:40000 \
-		--publish 8080:8080 \
+		--publish 3000:3000 \
 		--security-opt=seccomp:unconfined \
 		--name gowiki \
 		gowiki
