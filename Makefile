@@ -5,7 +5,7 @@ all: clean build run
 
 .PHONY: clean
 clean:
-	[[ -z "$(docker images -q gowiki:latest)" ]] || docker rmi gowiki:latest
+	docker rmi -f gowiki:latest
 
 .PHONY: build
 build:
