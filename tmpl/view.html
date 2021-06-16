@@ -1,5 +1,15 @@
-<h1>{{.Title}}</h1>
+<html>
 
-<p>[<a href="/edit/{{.Title}}">edit</a>]</p>
+<head>
+  <title>View</title>
+</head>
 
-<div>{{printf "%s" .Body}}</div>
+<body>
+  <h1 style="color: green;">{{.Title}}</h1>
+
+  <p>[<a href="/edit/{{.Title}}">edit</a>]</p>
+
+  <div>{{printf "%s" .Body}}</div>
+</body>
+
+</html>
