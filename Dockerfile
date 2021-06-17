@@ -4,5 +4,5 @@ RUN go get github.com/go-delve/delve/cmd/dlv
 WORKDIR $GOPATH/src/gowiki
 COPY . .
 
-EXPOSE 40000 3000
-CMD [ "dlv", "debug", "--listen=:40000", "--headless=true", "--api-version=2", "--log" ]
+EXPOSE 4040 8080
+CMD [ "go", "run", "." ]
