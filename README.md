@@ -6,7 +6,7 @@ Mason's work following on the [Go Writing Web Applications Tutorial](https://gol
 
 Use the following `make` commands in the root directory of the project
 
-* `make`: The default target will run all other targets, equivalent to `make clean build run`
+* `make`: The default target, which is also available via `make help`, lists the usage and available targets
 * `make clean`: The `clean` target will delete the existing Docker image if it exists
 * `make build`: The `build` target will create a new Docker image
 * `make run`: The `run` target will start the application in a new container
