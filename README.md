@@ -10,10 +10,11 @@ Use the following `make` commands in the root directory of the project
 * `make clean`: The `clean` target will delete the existing Docker image if it exists
 * `make build`: The `build` target will create a new Docker image
 * `make run`: The `run` target will start the application in a new container
+* `make debug`: The `debug` target will start the application in a new container in debug mode
 
 ## Using the App
 
-Once the application is started, you can visit `localhost:3000` to view the app
+Once the application is started, you can visit `localhost:8080` to view the app
 
 ## Debugging the App
 
@@ -42,7 +43,7 @@ To debug the application in Visual Studio Code:
           "to": "/go/src/gowiki/"
         }
       ],
-      "port": 40000,
+      "port": 4040,
       "showLog": true,
       "apiVersion": 2
     }
